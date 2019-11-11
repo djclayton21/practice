@@ -1,2 +1,2 @@
-const a = "yup its a test";
+const a = "its another test";
 console.log(a);
