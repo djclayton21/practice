@@ -18,15 +18,15 @@ const expected4 = 13;
 
 //solution
 function arrayChange(inputArray) {
-  let moveCount = 0;
-  let i = 1;
-  while (i < inputArray.length) {
-    if (inputArray[i] <= inputArray[i - 1]) {
-      inputArray[i]++;
-      moveCount++;
-    } else i++;
-  }
-  return moveCount;
+    let moveCount = 0;
+    let i = 1;
+    while (i < inputArray.length) {
+        if (inputArray[i] <= inputArray[i - 1]) {
+            inputArray[i]++;
+            moveCount++;
+        } else i++;
+    }
+    return moveCount;
 }
 
 //results
