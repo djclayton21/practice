@@ -47,3 +47,4 @@ function jumpingOnClouds(c) {
   }
   return jumps;
 }
+console.log(jumpingOnClouds([0, 1, 0, 0, 1, 0]))
